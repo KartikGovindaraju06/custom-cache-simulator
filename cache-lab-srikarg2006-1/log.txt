@@ -1,0 +1,19 @@
+
+Function 0 out of 3 (Transpose submission)
+Step 1: Validating and generating memory traces
+Step 2: Evaluating performance (s=5, E=1, b=6)
+Results for func 0 (Transpose submission): hits:1708, misses:340, evictions:308, clock_cycles:40832
+
+Function 1 out of 3 (Basic transpose)
+Step 1: Validating and generating memory traces
+Step 2: Evaluating performance (s=5, E=1, b=6)
+Results for func 1 (Basic transpose): hits:868, misses:1180, evictions:1148, clock_cycles:121472
+
+Function 2 out of 3 (Transpose using the temporary array)
+Step 1: Validating and generating memory traces
+Step 2: Evaluating performance (s=5, E=1, b=6)
+Results for func 2 (Transpose using the temporary array): hits:1802, misses:1270, evictions:1238, clock_cycles:134208
+
+Summary for official submission (func 0): correctness=1 cycles=40832
+
+TEST_TRANS_RESULTS=1:40832
